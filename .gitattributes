@@ -1,0 +1,51 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Force batch scripts to always use CRLF line endings so that if a repo is accessed
+# in Windows via a file share from Linux, the scripts will work.
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Force bash scripts to always use LF line endings so that if a repo is accessed
+# in Windows, the scripts will work.
+*.sh text eol=lf
+
+# Go files
+*.go text diff=golang
+
+# Markdown files
+*.md text
+
+# YAML files
+*.yml text
+*.yaml text
+
+# JSON files
+*.json text
+
+# License files
+LICENSE* text
+license* text
+
+# Documentation
+*.txt text
+CONTRIBUTING* text
+CHANGELOG* text
+AUTHORS* text
+NOTICE* text
+README* text
+
+# Images should be stored as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archive files are stored as binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
