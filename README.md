@@ -189,6 +189,31 @@ func main() {
 }
 ```
 
+### Chi Example
+
+```go
+package main
+
+import (
+    "net/http"
+
+    "github.com/go-chi/chi/v5"
+    "github.com/rumendamyanov/go-sitemap/adapters/chi"
+)
+
+func main() {
+    r := chi.NewRouter()
+
+    r.Get("/sitemap.xml", chiadapter.Sitemap(func() *sitemap.Sitemap {
+        sm := sitemap.New()
+        sm.Add("https://example.com/", time.Now(), 1.0, sitemap.Daily)
+        return sm
+    }))
+
+    http.ListenAndServe(":8080", r)
+}
+```
+
 ## Multiple Methods for Adding Items
 
 ### add() vs addItem()
