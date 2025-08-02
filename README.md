@@ -1,9 +1,11 @@
 # go-sitemap
 
 [![CI](https://github.com/rumendamyanov/go-sitemap/actions/workflows/ci.yml/badge.svg)](https://github.com/rumendamyanov/go-sitemap/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/RumenDamyanov/go-sitemap/graph/badge.svg?token=hyt7QKH8ej)](https://codecov.io/gh/rumendamyanov/go-sitemap)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-sitemap)](https://goreportcard.com/report/github.com/RumenDamyanov/go-sitemap)
-[![Go Reference](https://pkg.go.dev/badge/github.com/rumendamyanov/go-sitemap.svg)](https://pkg.go.dev/github.com/RumenDamyanov/go-sitemap)
+![CodeQL](https://github.com/rumendamyanov/go-sitemap/actions/workflows/github-code-scanning/codeql/badge.svg)
+![Dependabot](https://github.com/rumendamyanov/go-sitemap/actions/workflows/dependabot/dependabot-updates/badge.svg)
+[![codecov](https://codecov.io/gh/rumendamyanov/go-sitemap/branch/master/graph/badge.svg)](https://codecov.io/gh/rumendamyanov/go-sitemap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-sitemap?)](https://goreportcard.com/report/github.com/rumendamyanov/go-sitemap)
+[![Go Reference](https://pkg.go.dev/badge/github.com/rumendamyanov/go-sitemap.svg)](https://pkg.go.dev/github.com/rumendamyanov/go-sitemap)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rumendamyanov/go-sitemap/blob/master/LICENSE.md)
 
 A framework-agnostic Go module for generating sitemaps in XML, TXT, HTML, and Google News formats. Inspired by [php-sitemap](https://github.com/RumenDamyanov/php-sitemap), this package works seamlessly with any Go web framework including Gin, Echo, Fiber, Chi, and standard net/http.
