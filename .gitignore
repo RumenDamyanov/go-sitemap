@@ -45,6 +45,10 @@ coverage.txt
 dist/
 build/
 
+# Locally built example binaries
+examples/**/example-*
+examples/**/*-example
+
 # Temporary files
 *.tmp
 *.temp
