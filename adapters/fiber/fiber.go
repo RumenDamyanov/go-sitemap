@@ -3,7 +3,7 @@ package fiberadapter
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 // SitemapGenerator is a function that generates a sitemap.

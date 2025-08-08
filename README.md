@@ -4,7 +4,7 @@
 ![CodeQL](https://github.com/rumendamyanov/go-sitemap/actions/workflows/github-code-scanning/codeql/badge.svg)
 ![Dependabot](https://github.com/rumendamyanov/go-sitemap/actions/workflows/dependabot/dependabot-updates/badge.svg)
 [![codecov](https://codecov.io/gh/rumendamyanov/go-sitemap/branch/master/graph/badge.svg)](https://codecov.io/gh/rumendamyanov/go-sitemap)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-sitemap?)](https://goreportcard.com/report/github.com/rumendamyanov/go-sitemap)
+[![Go Report Card](https://goreportcard.com/badge/go.rumenx.com/sitemap?)](https://goreportcard.com/report/go.rumenx.com/sitemap)
 [![Go Reference](https://pkg.go.dev/badge/github.com/rumendamyanov/go-sitemap.svg)](https://pkg.go.dev/github.com/rumendamyanov/go-sitemap)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rumendamyanov/go-sitemap/blob/master/LICENSE.md)
 
@@ -36,7 +36,7 @@ A framework-agnostic Go module for generating sitemaps in XML, TXT, HTML, and Go
 ## Installation
 
 ```bash
-go get github.com/rumendamyanov/go-sitemap
+go get go.rumenx.com/sitemap
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ import (
     "net/http"
     "time"
 
-    "github.com/rumendamyanov/go-sitemap"
+    "go.rumenx.com/sitemap"
 )
 
 func sitemapHandler(w http.ResponseWriter, r *http.Request) {
@@ -127,7 +127,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/rumendamyanov/go-sitemap/adapters/gin"
+    "go.rumenx.com/sitemap/adapters/gin"
 )
 
 func main() {
@@ -150,7 +150,7 @@ package main
 
 import (
     "github.com/labstack/echo/v4"
-    "github.com/rumendamyanov/go-sitemap/adapters/echo"
+    "go.rumenx.com/sitemap/adapters/echo"
 )
 
 func main() {
@@ -173,7 +173,7 @@ package main
 
 import (
     "github.com/gofiber/fiber/v2"
-    "github.com/rumendamyanov/go-sitemap/adapters/fiber"
+    "go.rumenx.com/sitemap/adapters/fiber"
 )
 
 func main() {
@@ -198,7 +198,7 @@ import (
     "net/http"
 
     "github.com/go-chi/chi/v5"
-    "github.com/rumendamyanov/go-sitemap/adapters/chi"
+    "go.rumenx.com/sitemap/adapters/chi"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rumendamyanov/go-sitemap"
-	ginadapter "github.com/rumendamyanov/go-sitemap/adapters/gin"
+	"go.rumenx.com/sitemap"
+	ginadapter "go.rumenx.com/sitemap/adapters/gin"
 )
 
 func main() {

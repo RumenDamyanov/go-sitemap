@@ -23,7 +23,8 @@ go run main.go
 ```
 
 3. Access the sitemap:
-- **XML Sitemap**: http://localhost:8080/sitemap.xml
+
+- **XML Sitemap**: <http://localhost:8080/sitemap.xml>
 
 ## Code Structure
 
@@ -35,6 +36,7 @@ go run main.go
 ## When to Use
 
 This approach is ideal when:
+
 - You want minimal dependencies
 - Using the standard library only
 - Building a custom web framework

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 func TestSitemap(t *testing.T) {
