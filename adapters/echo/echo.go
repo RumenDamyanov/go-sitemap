@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 // SitemapGenerator is a function that generates a sitemap.

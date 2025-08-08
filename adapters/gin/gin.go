@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 // SitemapGenerator is a function that generates a sitemap.

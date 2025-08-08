@@ -6,10 +6,10 @@ toolchain go1.23.6
 
 require (
 	github.com/labstack/echo/v4 v4.13.4
-	github.com/rumendamyanov/go-sitemap v0.0.0-00010101000000-000000000000
+	go.rumenx.com/sitemap v0.0.0-00010101000000-000000000000
 )
 
-replace github.com/rumendamyanov/go-sitemap => ../..
+replace go.rumenx.com/sitemap => ../..
 
 require (
 	github.com/labstack/gommon v0.4.2 // indirect

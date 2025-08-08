@@ -1,4 +1,4 @@
-module github.com/rumendamyanov/go-sitemap
+module go.rumenx.com/sitemap
 
 go 1.23.0
 

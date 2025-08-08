@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 func TestSitemap(t *testing.T) {

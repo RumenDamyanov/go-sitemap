@@ -25,12 +25,13 @@ go run main.go
 ```
 
 3. Access the sitemaps:
-- **XML Sitemap**: http://localhost:8080/sitemap.xml
-- **Text Sitemap**: http://localhost:8080/sitemap.txt
-- **HTML Sitemap**: http://localhost:8080/sitemap.html
-- **Custom Sitemap**: http://localhost:8080/custom-sitemap.xml
-- **Query-based**: http://localhost:8080/custom-sitemap.xml?category=electronics
-- **Dynamic Category**: http://localhost:8080/sitemap/books.xml
+
+- **XML Sitemap**: <http://localhost:8080/sitemap.xml>
+- **Text Sitemap**: <http://localhost:8080/sitemap.txt>
+- **HTML Sitemap**: <http://localhost:8080/sitemap.html>
+- **Custom Sitemap**: <http://localhost:8080/custom-sitemap.xml>
+- **Query-based**: <http://localhost:8080/custom-sitemap.xml?category=electronics>
+- **Dynamic Category**: <http://localhost:8080/sitemap/books.xml>
 
 ## Code Structure
 

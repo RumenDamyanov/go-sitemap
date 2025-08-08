@@ -50,9 +50,10 @@ go run main.go    # Start the server
 ```
 
 Then visit:
-- **XML Sitemap**: http://localhost:8080/sitemap.xml
-- **Text Sitemap**: http://localhost:8080/sitemap.txt
-- **HTML Sitemap**: http://localhost:8080/sitemap.html
+
+- **XML Sitemap**: <http://localhost:8080/sitemap.xml>
+- **Text Sitemap**: <http://localhost:8080/sitemap.txt>
+- **HTML Sitemap**: <http://localhost:8080/sitemap.html>
 
 ## Common Features
 

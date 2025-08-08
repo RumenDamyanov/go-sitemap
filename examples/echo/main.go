@@ -6,8 +6,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/rumendamyanov/go-sitemap"
-	echoadapter "github.com/rumendamyanov/go-sitemap/adapters/echo"
+	"go.rumenx.com/sitemap"
+	echoadapter "go.rumenx.com/sitemap/adapters/echo"
 )
 
 func main() {

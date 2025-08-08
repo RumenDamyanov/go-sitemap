@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rumendamyanov/go-sitemap"
+	"go.rumenx.com/sitemap"
 )
 
 func main() {
