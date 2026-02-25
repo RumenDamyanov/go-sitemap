@@ -3,7 +3,7 @@ module fiber-example
 go 1.24.0
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.11
+	github.com/gofiber/fiber/v2 v2.52.12
 	go.rumenx.com/sitemap v0.0.0-00010101000000-000000000000
 )
 
