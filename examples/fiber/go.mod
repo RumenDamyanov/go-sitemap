@@ -3,7 +3,7 @@ module fiber-example
 go 1.25.0
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.15
+	github.com/gofiber/fiber/v2 v2.52.16
 	go.rumenx.com/sitemap v0.0.0-00010101000000-000000000000
 )
 
@@ -12,7 +12,7 @@ replace go.rumenx.com/sitemap => ../..
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/klauspost/compress v1.17.9 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
