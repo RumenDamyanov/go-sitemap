@@ -1,8 +1,6 @@
 module chi-example
 
-go 1.23.0
-
-toolchain go1.23.6
+go 1.26.10
 
 require (
 	github.com/go-chi/chi/v5 v5.2.2

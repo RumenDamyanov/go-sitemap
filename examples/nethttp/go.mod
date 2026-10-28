@@ -1,8 +1,6 @@
 module example-nethttp
 
-go 1.23.0
-
-toolchain go1.23.6
+go 1.26.10
 
 require go.rumenx.com/sitemap v0.0.0
 

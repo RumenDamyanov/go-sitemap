@@ -39,6 +39,8 @@ A framework-agnostic Go module for generating sitemaps in XML, TXT, HTML, and Go
 go get go.rumenx.com/sitemap
 ```
 
+Build with **Go 1.26.10+** or **1.27.3+**. See [SECURITY.md](SECURITY.md).
+
 ## Usage
 
 ### Basic Example (net/http)
