@@ -3,7 +3,7 @@ module echo-example
 go 1.26.10
 
 require (
-	github.com/labstack/echo/v4 v4.16.1
+	github.com/labstack/echo/v4 v4.16.2
 	go.rumenx.com/sitemap v1.0.1
 )
 
